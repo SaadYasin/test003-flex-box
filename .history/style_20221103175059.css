@@ -211,6 +211,7 @@ font-weight: bold;
     align-items: center;
     background: rgb(42, 54, 20);
     padding: 20px 60px;
+    margin: 0 auto;
   }
 
   #footer .container img {

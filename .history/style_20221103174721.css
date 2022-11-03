@@ -207,10 +207,10 @@ font-weight: bold;
 
   #footer .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: rgb(42, 54, 20);
-    padding: 20px 60px;
+
   }
 
   #footer .container img {
@@ -227,6 +227,8 @@ font-weight: bold;
   text-decoration: none;
   color: white;
 }
+
+.social-icons {}
 
 .social-icons a {
   margin-right: 40px;

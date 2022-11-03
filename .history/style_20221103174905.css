@@ -207,10 +207,10 @@ font-weight: bold;
 
   #footer .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: rgb(42, 54, 20);
-    padding: 20px 60px;
+    padding: ;
   }
 
   #footer .container img {

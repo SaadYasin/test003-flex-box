@@ -207,33 +207,12 @@ font-weight: bold;
 
   #footer .container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: rgb(42, 54, 20);
-    padding: 20px 60px;
+    justify-content: space-between;
+
   }
 
   #footer .container img {
-    width: 8%;
-    height: 8%;
+    width: 5%;
   }
-
-  .footer-nav ul li {
-    display: inline-block;
-    margin: 0 30px;
-  }
-
-.footer-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.social-icons a {
-  margin-right: 40px;
-}
-
-.instagram img {
-  color: white;
-}
 
 
