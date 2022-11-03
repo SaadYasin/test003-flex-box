@@ -157,10 +157,9 @@ font-weight: bold;
   #occasions-section .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
     width: 100vw;
-    height: 800px;
+    height: 600px;
     background: rgb(245, 242, 242);
     padding: 40px;
   }
@@ -190,7 +189,6 @@ font-weight: bold;
     height: 300px;
     background: rgb(212, 173, 212);
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0,0.3);
   }
 
   .cat-card img {
@@ -198,11 +196,6 @@ font-weight: bold;
     height: 70%;
     border-radius: 50%;
     margin-bottom: 10px;
-  }
-
-  .cat-card h5 {
-    font-size: 16px;
-    color: rgb(94, 15, 15);
   }
 
 
