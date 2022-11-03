@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: burlywood;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  padd
+}
+
+ul {
+  display:flex;
+}

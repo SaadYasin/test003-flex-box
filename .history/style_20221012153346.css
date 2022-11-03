@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: burlywood;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  background: cornflowerblue;
+}
+
+ul {
+  display:flex;
+}
+
+li {
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: red;
+}

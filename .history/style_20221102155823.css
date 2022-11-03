@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(231, 237, 196);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  height: 120px;
+  background: darkolivegreen;
+}
+
+.header-container img {
+  width: 120px;
+  /* height: 80%; */
+}
+
+.logo {
+  color: antiquewhite;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-container nav ul {
+  list-style: none;
+
+}
+
+.header-container nav ul li {
+  display: inline-block;
+}
+
+.header-container nav ul li a {
+text-decoration: none;
+color: white;
+margin-right: 40px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.header-container nav ul li a:hover {
+  color: orangered;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  padding: 100px 60px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: rgb(117, 28, 99);
+}
+
+.hero-paragraph {
+  font-size: 20px;
+  color: rgb(94, 93, 94);
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.coa-btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 80px;
+  background: orangered;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.coa-btn:hover {
+  background: rgb(137, 74, 159);
+}
+
+#about .container {
+  width: 100vw;
+  height: 400px;
+  background: rgb(245, 242, 242);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.about-title {
+  font-size: 32px;
+  color: rgb(117, 28, 99);
+}
+
+.about-text {
+  font-size: 18px;
+  color: rgb(94, 93, 94);
+  line-height: 1.5;
+  width: 800px;
+  margin-top: 40px ;
+}
+
+#services 
+
+.services-title {
+  text-align: center;
+  font-size: 32px;
+  color: rgb(117, 28, 99);
+}
+

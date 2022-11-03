@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex Box</title>
+
+    <style>
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        background: blue;
+      }
+      
+      .flex-container2 {
+        display: flex;
+        justify-content: flex-start;
+        /* flex-direction: column; */
+        background: blue;
+      }
+
+      .flex-container3 {
+        display: flex;
+        justify-content: flex-end;
+        /* flex-direction: column; */
+        background: blue;
+      }
+
+      .cell {
+        font-size: 40px;
+        background: aquamarine;
+        margin: 20px;
+        padding: 40px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h3>Justify Content center</h3>
+    <div class="flex-container">
+      <div class="cell">1</div>
+      <div class="cell">2</div>
+      <div class="cell">3</div>
+    </div>
+
+    <h3>Justify Content flex-start</h3>
+    <div class="flex-container2">
+      <div class="cell">1</div>
+      <div class="cell">2</div>
+      <div class="cell">3</div>
+    </div>
+
+    <h3>Justify Content flex-end</h3>
+    <div class="flex-container3">
+      <div class="cell">1</div>
+      <div class="cell">2</div>
+      <div class="cell">3</div>
+    </div>
+
+    
+  </body>
+</html>

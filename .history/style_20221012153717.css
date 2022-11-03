@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: burlywood;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  background: cornflowerblue;
+}
+
+.logo {
+  color: rgb(7, 10, 102);
+  border: 3px solid white;
+}
+
+ul {
+  display:flex;
+}
+
+li {
+  font-weight: bold;
+  color: aliceblue;
+  list-style-type: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: red;
+}

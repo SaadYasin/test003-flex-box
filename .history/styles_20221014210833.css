@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(226, 221, 206);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+
+}
